@@ -20,10 +20,4 @@ Route::get('/', function () {
 
 Route::resource('todolist', TodolistController::class);
 
-//Route::get('/todolist', TodolistController::class . '@index');
-//Route::post('/todolist', TodolistController::class . '@store');
-//Route::put('/todolist/{id}', TodolistController::class . '@update');
-//Route::delete('/todolist/{id}', TodolistController::class . '@destroy');
-
-
 
